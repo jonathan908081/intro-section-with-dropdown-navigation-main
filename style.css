@@ -101,6 +101,9 @@ nav .nav__bar {
   gap: 1rem;
   cursor: pointer;
 }
+.nav___menu:hover .menu__button img {
+  transform: rotate(180deg);
+}
 .nav__buttons {
   display: flex;
   align-items: center;
